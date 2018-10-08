@@ -8,11 +8,15 @@
     "react-dom": "^16.5.2",
     "react-scripts": "2.0.4"
   },
+  "devDependencies": {
+    "babel-plugin-import": "^1.9.1",
+    "react-app-rewired": "^1.6.2"
+  },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-app-rewired eject"
   },
   "eslintConfig": {
     "extends": "react-app"
